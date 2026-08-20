@@ -13,7 +13,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/accordian" element={<Accordian />} />
       </Routes>
     </BrowserRouter>
